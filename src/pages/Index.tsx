@@ -128,6 +128,36 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Location Map Section */}
+      <section className="py-12 px-4 md:py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-veera-blue mb-8 text-center">Find Us Here</h2>
+          <div className="rounded-lg overflow-hidden shadow-md">
+            <div className="w-full h-[450px] relative">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.1455588092385!2d83.3363246!3d17.7377794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3945538ea1679b%3A0x64061f363b3688f4!2sVeera%20Clinic%20-%20A%20Unit%20of%20Veera%20Hospital!5e0!3m2!1sen!2sin!4v1745903777951!5m2!1sen!2sin" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Veera Hospitals Location"
+                className="absolute top-0 left-0"
+              ></iframe>
+            </div>
+          </div>
+          <div className="mt-6 text-center">
+            <p className="text-gray-600">
+              <strong>Address:</strong> Visit us at Veera Clinic - A Unit of Veera Hospital
+            </p>
+            <p className="text-gray-600 mt-2">
+              <strong>Contact:</strong> Call us at +91 98765 43210 for appointments and inquiries
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-veera-blue text-white py-8 px-4">
         <div className="max-w-5xl mx-auto text-center">
